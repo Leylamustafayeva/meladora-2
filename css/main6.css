@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primery-header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid lightgrey;
+   
+}
+.primery-header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primery-header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact li a{ 
+    text-decoration: none;
+    color: black;
+}
+.icon-list a:hover{
+    color: chartreuse;
+}
+.contact{
+    list-style-type: none;
+    
+}
+.icon-list li a {
+    
+    color:black;
+    text-decoration: none;
+    padding: 5px 8px;
+
+}
+
+.icon-list{display: flex;
+list-style-type: none;}
+.secondary-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    
+    
+ }
+ .logo{
+    display: block;
+}
+
+#content ul li a {padding: 5px 8px;}
+#content ul li a:hover{background-color: lightgreen;}
+.care{
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+}
+.green{ 
+    position: absolute;
+   top:400px;
+   left:1100px;
+}
+.gardens-inner{
+    position: relative;
+}
+.left-symbol{
+    width: 310px;
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+.right-symbol{
+    width: 350px;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+}
+.right-symbol2{
+    width: 350px;
+    position: absolute;
+    top: 210px;
+    right: 50px;
+}
+
+.first-heading{
+   
+    padding: 50px 120px;
+}
+.nav-link{display: flex;text-align: center;justify-content: center;margin-top: 50px;}
+.nav-link a{text-decoration: none;padding: 5px 15px;color: #000;}
+
+.center{width: 950px;
+    height: 643px;
+    padding: 40px;
+}
+
+/* footer */
+
+footer{
+        display: block;
+      }
+.main-footer{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-position-x: center;
+    background-position-y: top; 
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    background-color:#f3f3f3;
+}
+
+.logo1{ display: flex;
+       align-items: center;
+       justify-content: center;
+      }
+
+.info { line-height: 40px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+.info li a:hover {
+                  color: black;
+                }
+.info li a {
+               text-decoration: none;
+               color:rgb(164, 157, 157) ;
+            }
+
+.line {  
+        width: 85%;
+        margin: 0 auto;
+        color:  rgb(164, 157, 157);
+        border-top: 2px solid rgb(164, 157, 157);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+     }

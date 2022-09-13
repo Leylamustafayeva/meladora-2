@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid lightgrey;
+
+}
+
+.primary-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact {
+           list-style-type: none;
+        }
+.contact li a { 
+                text-decoration: none;
+                color: black;
+                padding: 5px 8px;
+                font-weight: 600;
+              }
+.contact li a:hover { 
+                     color: #91b40d;
+                    }
+.icon-list {
+            display: flex;
+            list-style-type: none;
+            }
+
+.icon-list li a {
+                 color: black;
+                 text-decoration: none;
+                 padding: 5px 10px;
+                }
+
+.icon-list a:hover {
+                      color: #91b40d;
+                   }
+
+.secondary-header {
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-between;
+                   padding: 8px 0;
+                  }
+
+.secondary-header li a  { 
+                         font-size: 1.25rem;
+                         padding: 3px 8px;
+                         list-style-type: none;
+                         display: flex;
+                         align-items: center;
+                       } 
+.secondary-header li a:hover{
+                              color: #91b40d;
+                           }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+                             outline: none;
+                             box-shadow: none;
+                            }
+.navbar-toggler { 
+                 border: none;
+                }
+.logo {
+        display: block;
+      }
+.care {
+        width: 100%;
+        position: relative;
+      }
+
+.banner1 {
+           position: absolute;
+           top: 80%;
+           right: 80px;
+           width: 100%;
+          }
+
+.green {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+}
+/* Heading */
+
+.gardens-inner {
+    position: relative;
+}
+
+.left-symbol {
+    width: 310px;
+    position: absolute;
+    left: -40px;
+    top: 50px;
+}
+
+
+.first-heading {
+
+    padding: 50px 120px;
+}
+
+.center {
+    width: 100%;
+    margin-top: 80px;
+    width: 100%;
+    padding: 55px 0 55px 20px;
+}
+
+.box1 {
+    display: flex;
+    width: 356px;
+    height: 320px;
+    background-color: lightgray;
+    position: relative;
+    margin-bottom: 70px;
+
+
+}
+
+.box2 {
+    display: flex;
+    width: 356px;
+    height: 320px;
+    background-color: lightgray;
+    margin-left: 15px; 
+    position: relative;
+    margin-bottom: 70px;
+
+}
+
+.box3 {
+    display: flex;
+    width: 356px;
+    height: 320px;
+    background-color: lightgray;
+    margin-left: 15px; 
+    position: relative;
+
+
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 32%;
+    background-color: #fff;
+}
+.box {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 30px;
+    font-size: 1rem;
+}
+
+
+.icon {
+    position: absolute;
+    left: 42px;
+    top: 40px;
+    cursor: pointer;
+}
+.icon:hover{ transition: all 250ms ease;}
+/* footer */
+
+
+footer {
+    display: block;
+}
+
+.main-footer {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    background-color: #f3f3f3;
+}
+
+.logo1 {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+
+.info {
+       line-height: 40px;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       }
+
+.info li a:hover {
+                   color: black;
+                }
+.info li a {
+             text-decoration: none;
+            color: rgb(164, 157, 157);
+           }
+.line {
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(164, 157, 157);
+    border-top: 2px solid rgb(164, 157, 157);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* Responsive */
+
+
+@media(max-width:991.98px) {
+    #mainNavbar .navbar-nav .nav-item .nav-link {
+        color: #212529
+    }
+}
+@media(max-width:400px){
+
+    .circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 32%;
+    background-color: #fff;
+}
+.box1,.box2,.box3{
+    margin:40px auto ;
+    display: block;
+    width: 100%;
+
+} 
+.center{overflow: hidden;
+}}
+
+@media(max-width:500px) {
+    .contact{font-size: 0.5rem;}
+    .icon-list{font-size: 0.5rem;
+            padding: 2px 4px ;}
+
+    .care { width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .green {
+        display: block;
+        width: 20%;
+        top: 20%;
+        margin-left: auto;
+    }
+
+    .banner1 {
+        position: absolute;
+        top: 80%;
+        right: 10px;
+        width: 100%;
+    }
+
+    .center {
+        display: block;
+        margin: 0 auto;
+       overflow: hidden;
+        padding-left: 0;
+        
+    }
+ 
+
+    .box1{margin-top: 50px;}
+
+    .box1,.box2,.box3{
+        margin:40px auto ;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    
+    }
+
+}
+
+@media(max-width: 768px) {
+    .care {
+        padding: 0;
+    }
+
+    .green {
+        display: block;
+        width: 20%;
+        top: 20%;
+        margin-left: auto;
+    }
+
+    .banner1 {
+        position: absolute;
+        top: 80%;
+        right: 10px;
+        width: 100%;
+    }
+
+     .center {
+        display: block;
+        margin: 0 auto;
+        margin-left: 0;
+    } 
+
+    .box1{margin-top: 50px;}
+    .box1,.box2,.box3{
+        margin:40px auto ;
+        display: block;
+    }
+}
+@media(max-width:1100px){
+.box1,.box2,.box3{
+    margin:40px auto ;
+    display: block;
+}}
+
